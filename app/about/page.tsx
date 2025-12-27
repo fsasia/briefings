@@ -56,7 +56,7 @@ export default function AboutPage() {
                         Can I have API access?
                     </h2>
                     <p className={"tracking-tight"}>
-                        In the future, we want to make API access available.
+                        See the roadmap below.
                     </p>
                 </div>
 
@@ -64,9 +64,50 @@ export default function AboutPage() {
                     <h2 className={"text-xl font-bold"}>
                         Is there a development roadmap?
                     </h2>
-                    <p className={"tracking-tight"}>
-                        Yes &mdash; stay tuned for further details, or check out our Development Discord.
-                    </p>
+                    It's early days, but this is the rough outline:
+                    <div className={"pl-3 flex flex-col gap-3"}>
+                        <div className={"flex flex-col gap-1"}>
+                            <h3 className={"text-lg font-bold"}>
+                                1) Initial
+                            </h3>
+                            <p className={"tracking-tight"}>
+                                Our focus is on site refinement, bug fixing, and improving data completeness.
+                            </p>
+                        </div>
+
+                        <div className={"flex flex-col gap-1"}>
+                            <h3 className={"text-lg font-bold"}>
+                                2) API Access
+                            </h3>
+                            <p className={"tracking-tight"}>
+                                We will open the VatBrief.com API for integration with external projects.
+                            </p>
+                        </div>
+
+                        <div className={"flex flex-col gap-1"}>
+                            <h3 className={"text-lg font-bold"}>
+                                2) Single Source of Truth
+                            </h3>
+                            <div className={"tracking-tight py-0.5"}>
+                                Facilities may choose to contribute documentation as:
+                                <ol className={"flex flex-col gap-1.5 pl-3"}>
+                                    <li>
+                                        <span className={"font-bold"}>1. Hosted repository. </span>
+                                        Contribute directly to a central repository maintained by VatBrief.com.
+                                    </li>
+                                    <li>
+                                        <span className={"font-bold"}>2. Private repository. </span>
+                                        Have your own docs repository mirrored on VatBrief.com.
+                                    </li>
+                                    <li>
+                                        <span className={"font-bold"}>3. Off-site links. </span>
+                                        Maintain your docs elsewhere, VatBrief.com will link users to your site.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
                 <div className={"flex flex-col gap-3"}>
