@@ -10,13 +10,16 @@ export default function AboutPage() {
                         What is VatBrief?
                     </h2>
                     <p className={"tracking-tight"}>
-                        If you've explored flying around the world in VATSIM, you might've stumbled into instances where
-                        ATC expects you to be familiar with a particular procedure, only to be pointed toward a Pilot Briefing
+                        VatBrief.com is an effort to put all the wonderfully prepared pilot briefings by VATSIM facilities
+                        &amp; organisers around the world into one clear, simple, easily-searched list.
+                    </p>
+                    <p className={"tracking-tight"}>
+                        If you've explored flying internationally on VATSIM, you might've stumbled into instances where
+                        you're expected to be familiar with some particular procedure, and get be pointed toward a Pilot Briefing
                         that you didn't know existed.
                     </p>
                     <p className={"tracking-tight"}>
-                        VatBrief.com is an effort to put all the wonderfully prepared pilot briefings by VATSIM facilities
-                        &amp; organisers around the world into one clear, simple, easily-searched list.
+                        Now? Just check VatBrief!
                     </p>
                 </div>
 
