@@ -8,22 +8,6 @@ export const GlobalAirportsList = [
         url: "https://www.dutchvacc.nl/visiting-pilots/"
     },
     {
-        name: "Paris Charles de Gaulle",
-        icao: "LFPG",
-        iata: "CDG",
-        countryIso: "fr",
-        status: "official",
-        url: "https://vatsim.fr/airports/LFPG"
-    },
-    {
-        name: "Nice/Côte d'Azure",
-        icao: "LFMN",
-        iata: "NCE",
-        countryIso: "fr",
-        status: "official",
-        url: "https://vatsim.fr/airports/LFMN"
-    },
-    {
         name: "Frankfurt/Main",
         icao: "EDDF",
         iata: "FRA",
@@ -47,14 +31,7 @@ export const GlobalAirportsList = [
         status: "official",
         url: "https://knowledgebase.vatsim-germany.org/books/airports-munchen-fir-edmm/chapter/eddm-munchen"
     },
-    {
-        name: "Helsinki Vantaa",
-        icao: "EFHK",
-        iata: "HEL",
-        countryIso: "fi",
-        status: "official",
-        url: "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efhk-pilot-briefing"
-    },
+
     {
         name: "Ivalo",
         icao: "EFIV",
@@ -62,6 +39,14 @@ export const GlobalAirportsList = [
         countryIso: "fi",
         status: "official",
         url: "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efiv-ivalo"
+    },
+    {
+        name: "Helsinki Vantaa",
+        icao: "EFHK",
+        iata: "HEL",
+        countryIso: "fi",
+        status: "official",
+        url: "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efhk-pilot-briefing"
     },
     {
         name: "Kittilä",
@@ -80,12 +65,44 @@ export const GlobalAirportsList = [
         url: "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efro-rovaniemi"
     },
     {
-        name: "Dubai",
-        icao: "OMDB",
-        iata: "DXB",
-        countryIso: "ae",
+        name: "Nice/Côte d'Azure",
+        icao: "LFMN",
+        iata: "NCE",
+        countryIso: "fr",
         status: "official",
-        url: "https://library.arabianvacc.com/pilots/dubai/overview/"
+        url: "https://vatsim.fr/airports/LFMN"
+    },
+    {
+        name: "Paris Charles de Gaulle",
+        icao: "LFPG",
+        iata: "CDG",
+        countryIso: "fr",
+        status: "official",
+        url: "https://vatsim.fr/airports/LFPG"
+    },
+    {
+        name: "Istanbul",
+        icao: "LTFM",
+        iata: "IST",
+        countryIso: "tr",
+        status: "official",
+        url: "https://www.vatsim.tr/airport/ltfm/"
+    },
+    {
+        name: "Auckland",
+        icao: "NZAA",
+        iata: "AKL",
+        countryIso: "nz",
+        status: "official",
+        url: "https://www.vatnz.net/airspace/airport/NZAA"
+    },
+    {
+        name: "Queenstown",
+        icao: "NZQN",
+        iata: "ZQN",
+        countryIso: "nz",
+        status: "official",
+        url: "https://www.vatnz.net/airspace/airport/NZQN"
     },
     {
         name: "Abu Dhabi",
@@ -96,20 +113,20 @@ export const GlobalAirportsList = [
         url: "https://library.arabianvacc.com/pilots/abu%20dhabi/overview/"
     },
     {
+        name: "Dubai",
+        icao: "OMDB",
+        iata: "DXB",
+        countryIso: "ae",
+        status: "official",
+        url: "https://library.arabianvacc.com/pilots/dubai/overview/"
+    },
+    {
         name: "Doha/Hamad",
         icao: "OTHH",
         iata: "DOH",
         countryIso: "qa",
         status: "official",
         url: "https://library.arabianvacc.com/pilots/doha/overview/"
-    },
-    {
-        name: "Istanbul",
-        icao: "LTFM",
-        iata: "IST",
-        countryIso: "tr",
-        status: "official",
-        url: "https://www.vatsim.tr/airport/ltfm/"
     },
     {
         name: "Muscat",
@@ -190,21 +207,5 @@ export const GlobalAirportsList = [
         countryIso: "au",
         status: "official",
         url: "https://pilots.vatpac.org/local-procedures/Class%20C/melbourne/"
-    },
-    {
-        name: "Auckland",
-        icao: "NZAA",
-        iata: "AKL",
-        countryIso: "nz",
-        status: "official",
-        url: "https://www.vatnz.net/airspace/airport/NZAA"
-    },
-    {
-        name: "Queenstown",
-        icao: "NZQN",
-        iata: "ZQN",
-        countryIso: "nz",
-        status: "official",
-        url: "https://www.vatnz.net/airspace/airport/NZQN"
     },
 ]

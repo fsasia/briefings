@@ -43,7 +43,7 @@ function FilterInput({ searchTerm, setSearchTerm }: FilterInputProps) {
             maxLength={4}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value.toUpperCase())}
-            className="w-full lg:w-1/5 min-w-fit mx-auto rounded-lg bg-black/10 dark:bg-white/10 outline outline-black/30 dark:outline-white/30 focus:outline-black/50 dark:focus:outline-white/50 px-2 p-1.5"
+            className="w-full lg:w-1/3 min-w-fit mx-auto rounded-lg label px-2 p-1.5"
         />
     );
 }

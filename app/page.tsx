@@ -1,34 +1,50 @@
 import {ClientWrapper} from "@/app/filtering";
 
 export default function Home() {
-
     return (
-        <>
-            <div className={"container mx-auto lg:w-2/3 xl:w-1/3 min-w-fit"}>
-                <div className={"flex flex-col gap-3 xl:gap-6 py-3"}>
+        <div className={"flex flex-col gap-3 py-3"}>
+            {/* Header and Navigation */}
+            <Header />
 
-                    {/*Header and Navigation*/}
-                    <header className={"flex flex-col gap-3 xl:pt-3"}>
-                        <h1 className={"text-2xl md:text-6xl lg:text-7xl font-thin text-center mx-auto"}>VatBrief</h1>
-                        <h6 className={"text-sm uppercase tracking-wide text-center mx-auto text-black/80 dark:text-white/80"}>Global Directory of VATSIM Airport Briefings</h6>
-                        <nav className={"text-center mx-auto flex gap-1.5 lg:gap-2"}>
-                            <a href={""} className={"text-blue-400/80 hover:text-blue-400 dark:text-blue-300/90 dark:hover:text-blue-300"}>About</a>
-                            <a href={""} className={"text-blue-400/80 hover:text-blue-400 dark:text-blue-300/90 dark:hover:text-blue-300"}>Contribute</a>
-                            <a href={""} className={"text-blue-400/80 hover:text-blue-400 dark:text-blue-300/90 dark:hover:text-blue-300"}>Discord</a>
-                        </nav>
-                    </header>
+            {/* Main Content - List */}
+            <main className={"flex flex-col gap-3"}>
+                <ClientWrapper/>
+            </main>
 
-                    {/*List*/}
-                    <main className={"flex flex-col gap-3"}>
-
-                        <ClientWrapper/>
-
-                    </main>
-
-                </div>
-            </div>
-        </>
+            <Footer />
+        </div>
     );
+}
+
+export function Header() {
+    return (
+        <header className={"flex flex-col gap-1.5 xl:pt-3"}>
+
+            <a href={"/"}>
+                <h1 className={"text-2xl md:text-6xl lg:text-7xl font-thin text-center mx-auto"}>
+                    VatBrief
+                </h1>
+                <h6 className={"muted-text text-xs uppercase tracking-widest text-center mx-auto"}>
+                    Global Directory of VATSIM Pilot Briefings
+                </h6>
+            </a>
+
+            <nav className={"text-center mx-auto flex gap-1.5 lg:gap-3"}>
+                <a href={"/about"} className={"link"}>About &amp; FAQ</a>
+                <a href={"/about"} className={"link"}>Support Us</a>
+            </nav>
+
+        </header>
+    )
+}
+
+export function Footer() {
+    return (
+        <footer className={"muted-text uppercase text-xs tracking-widest flex flex-row justify-between"}>
+            <a href={"#"} className={"hover:underline"}>VatBrief.com</a>
+            <a href={"/about"} className={"hover:underline"}>About, Privacy, &amp; Contact</a>
+        </footer>
+    )
 }
 
 
