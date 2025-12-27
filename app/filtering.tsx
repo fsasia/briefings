@@ -2,8 +2,16 @@
 import { GlobalAirportsList } from "@/app/airports";
 import { useState, useMemo } from "react";
 
+interface Airport {
+    icao: string;
+    url: string;
+    countryIso: string;
+    name: string;
+    status: string;
+}
+
 export function ClientWrapper() {
-    const [searchTerm, setSearchTerm] = useState("");
+    const [searchTerm, setSearchTerm] = useState<string>("");
 
     const filteredAirports = useMemo(() => {
         if (!searchTerm.trim()) return GlobalAirportsList;
@@ -21,7 +29,12 @@ export function ClientWrapper() {
     );
 }
 
-function FilterInput({ searchTerm, setSearchTerm }) {
+interface FilterInputProps {
+    searchTerm: string;
+    setSearchTerm: (value: string) => void;
+}
+
+function FilterInput({ searchTerm, setSearchTerm }: FilterInputProps) {
     return (
         <input
             type="text"
@@ -35,7 +48,11 @@ function FilterInput({ searchTerm, setSearchTerm }) {
     );
 }
 
-function DisplayList({ airports }) {
+interface DisplayListProps {
+    airports: Airport[];
+}
+
+function DisplayList({ airports }: DisplayListProps) {
     if (!airports.length) {
         return <p className="text-center text-black/60 dark:text-white/60">No airports found</p>;
     }
@@ -46,7 +63,7 @@ function DisplayList({ airports }) {
                 <a
                     key={airport.icao}
                     href={airport.url}
-                    className="w-full min-w-fit mx-auto rounded-lg bg-black/10 dark:bg-white/10 outline outline-black/30 dark:outline-white/30 hover:outline-2 px-2 p-1.5 cursor-pointer block"
+                    className="label w-full min-w-fit mx-auto rounded-lg px-2 p-1.5 cursor-pointer block"
                 >
                     <div className="flex gap-1.5 lg:gap-2 justify-between">
                         <h4 className="text-lg tracking-wide flex gap-1.5 lg:gap-2 items-center">
