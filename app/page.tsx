@@ -12,21 +12,17 @@ export default function Home() {
 
                     {/*Header and Navigation*/}
                     <header className={"flex flex-col gap-3 xl:pt-3"}>
-
-                        <h1 className={"text-2xl md:text-6xl lg:text-7xl font-thin text-center mx-auto"}>Pilot Briefings</h1>
-                        <h6 className={"text-sm uppercase tracking-wide text-center mx-auto text-black/80 dark:text-white/80"}>The International Directory of Flight Sim Airport Guides</h6>
-
+                        <h1 className={"text-2xl md:text-6xl lg:text-7xl font-thin text-center mx-auto"}>VatBrief</h1>
+                        <h6 className={"text-sm uppercase tracking-wide text-center mx-auto text-black/80 dark:text-white/80"}>Global Directory of VATSIM Airport Briefings</h6>
                         <nav className={"text-center mx-auto flex gap-1.5 lg:gap-2"}>
                             <a href={""} className={"text-blue-400/80 hover:text-blue-400 dark:text-blue-300/90 dark:hover:text-blue-300"}>About</a>
                             <a href={""} className={"text-blue-400/80 hover:text-blue-400 dark:text-blue-300/90 dark:hover:text-blue-300"}>Contribute</a>
                             <a href={""} className={"text-blue-400/80 hover:text-blue-400 dark:text-blue-300/90 dark:hover:text-blue-300"}>Discord</a>
                         </nav>
-
                         <input
                             type={"text"} id={"main-search"} placeholder={"Search by ICAO Code"} maxLength={4}
                             className={"w-full lg:w-1/5 min-w-fit mx-auto rounded-lg bg-black/10 dark:bg-white/10 outline outline-black/30 dark:outline-white/30 focus:outline-black/50 dark:focus:outline-white/50 px-2 p-1.5"}
                         />
-
                     </header>
 
                     {/*List*/}
@@ -47,7 +43,7 @@ export default function Home() {
                         </div>
 
                         {airports.length && airports.map((airport, index) => (
-                            <a href={airport.url} className={"w-full min-w-fit mx-auto rounded-lg bg-gradient-to-r from-white/10 to-transparent outline outline-black/30 dark:outline-white/30 hover:outline-2 px-2 p-1.5 cursor-pointer"}>
+                            <a key={index} href={airport.url} className={"w-full min-w-fit mx-auto rounded-lg bg-black/10 dark:bg-white/10 outline outline-black/30 dark:outline-white/30 hover:outline-2 px-2 p-1.5 cursor-pointer"}>
                                 <div className={"flex gap-1.5 lg:gap-2 justify-between"}>
                                     <h4 className={"text-lg tracking-wide flex gap-1.5 lg:gap-2"}>
                                         <i className={`fi text-xs fi-` + airport.countryIso}/>
