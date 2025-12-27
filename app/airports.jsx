@@ -143,4 +143,68 @@ export const GlobalAirportsList = [
         status: "official",
         url: "https://vathk.com/en/briefings"
     },
+    {
+        name: "Singapore",
+        icao: "WSSS",
+        iata: "SIN",
+        countryIso: "sg",
+        status: "official",
+        url: "https://drive.google.com/drive/folders/1_r5dJTcfomUQDUSAG-TNN_CunZpdnJnq"
+    },
+    {
+        name: "Sydney",
+        icao: "YSSY",
+        iata: "SYD",
+        countryIso: "au",
+        status: "official",
+        url: "https://pilots.vatpac.org/local-procedures/Class%20C/sydney/"
+    },
+    {
+        name: "Perth",
+        icao: "YPPH",
+        iata: "PER",
+        countryIso: "au",
+        status: "official",
+        url: "https://pilots.vatpac.org/local-procedures/Class%20C/perth/"
+    },
+    {
+        name: "Brisbane",
+        icao: "YBBN",
+        iata: "BNE",
+        countryIso: "au",
+        status: "official",
+        url: "https://pilots.vatpac.org/local-procedures/Class%20C/brisbane/"
+    },
+    {
+        name: "Gold Coast",
+        icao: "YBCG",
+        iata: "OOL",
+        countryIso: "au",
+        status: "official",
+        url: "https://pilots.vatpac.org/local-procedures/Class%20C/goldcoast/"
+    },
+    {
+        name: "Melbourne",
+        icao: "YMML",
+        iata: "MEL",
+        countryIso: "au",
+        status: "official",
+        url: "https://pilots.vatpac.org/local-procedures/Class%20C/melbourne/"
+    },
+    {
+        name: "Auckland",
+        icao: "NZAA",
+        iata: "AKL",
+        countryIso: "nz",
+        status: "official",
+        url: "https://www.vatnz.net/airspace/airport/NZAA"
+    },
+    {
+        name: "Queenstown",
+        icao: "NZQN",
+        iata: "ZQN",
+        countryIso: "nz",
+        status: "official",
+        url: "https://www.vatnz.net/airspace/airport/NZQN"
+    },
 ]
