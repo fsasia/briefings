@@ -1,4 +1,4 @@
-import {ClientWrapper, DisplayList} from "@/app/filtering";
+import {ClientWrapper} from "@/app/filtering";
 
 export default function Home() {
 
