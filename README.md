@@ -2,25 +2,12 @@
 This is a project to unify pilot briefings (airport guides and event guides, etc) for flight simulator users on the VATSIM Network.
 
 ## Roadmap
-### 1) Initial
-Initially, we will compile & aggregate links to VATSIM pilot briefings & airport guides. Our focus is on site refinement, 
-bug fixing, and data completeness.
-
-_Where a source cannot be verified, we will exercise discretion over its inclusion._
-
-ETA: **Ongoing**
-
-### 2) API Access
-We will open the VatBrief.com API for integration into your own projects.
-
-ETA: TBD
-
-### 3) Centralised source
-We'll have a central documentation repository. At this point, there will be different types of entries.
-1. **Hosted repositories.** Contribute directly to a central repository maintained by VatBrief.com.
-2. **Remote repositories.** Maintain your own repository & have it mirrored on VatBrief.com.
-3. **Offsite links.** Link to your own site, just like now.
-
-Options (1) and (2) will be presented as a Markdown document on VatBrief.com.
-
-ETA: TBD
+- [x] Data set initialised
+- [x] Data set presented on a NextJS app in Cloudflare Pages
+- [ ] API read/write access to data set
+- [ ] Centralised docs site
+### Centralised docs site?
+The goal is to have a single, central Briefings site containing official pilot docs. Facilities may choose between:
+1. **Hosted doc repository.** Write directly to a central docs repository
+2. **Remote repositories.** Point VatBrief to read from your own repository
+3. **Offsite links.** Link to external resources, just like the current state
