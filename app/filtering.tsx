@@ -1,6 +1,8 @@
 "use client";
-import { GlobalAirportsList } from "@/app/airports";
 import { useState, useMemo } from "react";
+import airports from "./airports.json";
+
+const GlobalAirportsList: Airport[] = JSON.parse(JSON.stringify(airports));
 
 interface Airport {
     icao: string;
