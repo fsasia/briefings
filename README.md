@@ -1,6 +1,9 @@
 # FS Pilot Briefings
 This is a project to unify pilot briefings (airport guides and event guides, etc) for flight simulator users on the VATSIM Network.
 
+## Contribute/Update Data
+Read Contributing.md
+
 ## Roadmap
 - [x] Data set initialised
 - [x] Data set presented on a NextJS app in Cloudflare Pages
