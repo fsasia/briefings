@@ -29,9 +29,10 @@ export function Header() {
                 </h6>
             </a>
 
-            <nav className={"text-center mx-auto flex gap-1.5 lg:gap-3"}>
+            <nav className={"text-center mx-auto flex gap-4 lg:gap-3"}>
                 <a href={"/about"} className={"link"}>About &amp; FAQ</a>
                 <a href={"/about"} className={"link"}>Support Us</a>
+                <a href={"https://github.com/fsasia/briefings"} className={"link"}>GitHub</a>
             </nav>
 
         </header>
@@ -40,25 +41,9 @@ export function Header() {
 
 export function Footer() {
     return (
-        <footer className={"muted-text uppercase text-xs tracking-widest flex flex-row justify-between"}>
-            <a href={"#"} className={"hover:underline"}>VatBrief.com</a>
+        <footer className={"muted-text uppercase text-xs tracking-widest flex justify-between"}>
             <a href={"/about"} className={"hover:underline"}>About, Privacy, &amp; Contact</a>
+            <a href={"#"} className={"hover:underline"}>VatBrief.com</a>
         </footer>
     )
 }
-
-
-{/*<div className={"mx-auto flex flex-col text-center"}>*/}
-{/*    <h2 className={"text-xl text-center"}>*/}
-{/*        Airports Index*/}
-{/*    </h2>*/}
-{/*    <div className={"flex gap-1.5 lg:gap-2 place-items-baseline"}>*/}
-{/*        <p className={"text-sm"}>Sort by:</p>*/}
-{/*        <button type={"button"} className={"text-xs uppercase tracking-tight px-1.5 p-1 bg-black/10 dark:bg-white/10 rounded"}>*/}
-{/*            A-Z*/}
-{/*        </button>*/}
-{/*        <button type={"button"} className={"text-xs uppercase tracking-tight px-1.5 p-1 bg-black/10 dark:bg-white/10 rounded"}>*/}
-{/*            popular*/}
-{/*        </button>*/}
-{/*    </div>*/}
-{/*</div>*/}

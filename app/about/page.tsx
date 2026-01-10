@@ -15,11 +15,20 @@ export default function AboutPage() {
                     </p>
                     <p className={"tracking-tight"}>
                         If you've explored flying internationally on VATSIM, you might've stumbled into instances where
-                        you're expected to be familiar with some particular procedure, and get be pointed toward a Pilot Briefing
-                        that you didn't know existed.
+                        you're expected to be familiar with some particular procedure, and get pointed toward a Pilot Briefing
+                        that you didn't know existed (or where to check if it did).
                     </p>
                     <p className={"tracking-tight"}>
-                        Now? Just check VatBrief!
+                        Now? Just check VatBrief.
+                    </p>
+                </div>
+
+                <div className={"flex flex-col gap-3"}>
+                    <h2 className={"text-xl font-bold"}>
+                        Can I add (or correct) my facility's briefings?
+                    </h2>
+                    <p className={"tracking-tight"}>
+                        Yes! Please see the instructions on GitHub.
                     </p>
                 </div>
 
@@ -29,18 +38,6 @@ export default function AboutPage() {
                     </h2>
                     <p className={"tracking-tight"}>
                         Yes, please! We'll include some links here soon.
-                    </p>
-                </div>
-
-                <div className={"flex flex-col gap-3"}>
-                    <h2 className={"text-xl font-bold"}>
-                        Can I add (or correct) my facility's briefings?
-                    </h2>
-                    <p className={"tracking-tight"}>
-                        Yes, please! Join our Development Discord, or e-mail{" "}
-                        <a href={"mailto:ezn@flightsim.asia"} className={"font-bold"}>ezn@flightsim.asia</a>{" "}
-                        to get write access. You will need to verify your VATSIM or facility staff credentials, or be
-                        authorised by such a person.
                     </p>
                 </div>
 
@@ -59,58 +56,8 @@ export default function AboutPage() {
                         Can I have API access?
                     </h2>
                     <p className={"tracking-tight"}>
-                        See the roadmap below.
+                        See the roadmap in GitHub.
                     </p>
-                </div>
-
-                <div className={"flex flex-col gap-3"}>
-                    <h2 className={"text-xl font-bold"}>
-                        Is there a development roadmap?
-                    </h2>
-                    It's early days, but this is the rough outline:
-                    <div className={"pl-3 flex flex-col gap-3"}>
-                        <div className={"flex flex-col gap-1"}>
-                            <h3 className={"text-lg font-bold"}>
-                                1) Initial
-                            </h3>
-                            <p className={"tracking-tight"}>
-                                Our focus is on site refinement, bug fixing, and improving data completeness.
-                            </p>
-                        </div>
-
-                        <div className={"flex flex-col gap-1"}>
-                            <h3 className={"text-lg font-bold"}>
-                                2) API Access
-                            </h3>
-                            <p className={"tracking-tight"}>
-                                We will open the VatBrief.com API for integration with external projects.
-                            </p>
-                        </div>
-
-                        <div className={"flex flex-col gap-1"}>
-                            <h3 className={"text-lg font-bold"}>
-                                2) Single Source of Truth
-                            </h3>
-                            <div className={"tracking-tight py-0.5"}>
-                                Facilities may choose to contribute documentation as:
-                                <ol className={"flex flex-col gap-1.5 pl-3"}>
-                                    <li>
-                                        <span className={"font-bold"}>1. Hosted repository. </span>
-                                        Contribute directly to a central repository maintained by VatBrief.com.
-                                    </li>
-                                    <li>
-                                        <span className={"font-bold"}>2. Private repository. </span>
-                                        Have your own docs repository mirrored on VatBrief.com.
-                                    </li>
-                                    <li>
-                                        <span className={"font-bold"}>3. Off-site links. </span>
-                                        Maintain your docs elsewhere, VatBrief.com will link users to your site.
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
 
                 <div className={"flex flex-col gap-3"}>
