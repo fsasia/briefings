@@ -1,5 +1,5 @@
 # VatBrief - pilot briefings index
-This is a project to unify pilot briefings (airport guides and event guides, etc) for flight simulator users on the VATSIM Network.
+This is a project to unify pilot briefings (airport guides and event guides, etc) for flight simulator users on the @vatsimnetwork.
 
 ## Contribute/Update Data
 Read Contributing.md
