@@ -45,7 +45,7 @@ function FilterInput({ searchTerm, setSearchTerm }: FilterInputProps) {
             maxLength={4}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value.toUpperCase())}
-            className="w-full lg:w-1/3 min-w-fit mx-auto rounded-lg label px-2 p-1.5"
+            className="w-full lg:w-1/3 min-w-fit mx-auto rounded-lg label px-2 p-1.5 text-center"
         />
     );
 }
@@ -65,17 +65,19 @@ function DisplayList({ airports }: DisplayListProps) {
                 <a
                     key={airport.icao}
                     href={airport.url}
-                    className="label w-full min-w-fit mx-auto rounded-lg px-2 p-1.5 cursor-pointer block"
+                    className="label w-full min-w-fit max-w-screen mx-auto rounded-lg px-2 p-1.5 cursor-pointer"
                 >
                     <div className="flex gap-1.5 lg:gap-2 justify-between">
                         <h4 className="text-lg tracking-wide flex gap-1.5 lg:gap-2 items-center">
-                            <i className={`fi text-xs fi-${airport.countryIso}`} />
-                            <span className="text-black/80 dark:text-white/80 font-[monospace] uppercase">
+                            <i className={`fi text-xs fi-${airport.countryIso} self-center`} />
+                            <span className="text-black/80 dark:text-white/80 font-[monospace] uppercase text-sm lg:text-base self-center text-nowrap tracking-tight">
                                 {airport.icao} //
                             </span>
-                            {airport.name}
+                            <span className={"truncate max-w-54 text-sm md:text-base"}>
+                                {airport.name}
+                            </span>
                         </h4>
-                        <p className="rounded-md text-xs my-auto items-center bg-black/10 dark:bg-white/10 outline outline-black/30 dark:outline-white/30 p-1 px-1.5 uppercase">
+                        <p className="rounded-md text-[0.675rem] my-auto items-center bg-black/10 dark:bg-white/10 outline outline-black/30 dark:outline-white/30 p-1 px-1.5 uppercase">
                             {airport.status}
                         </p>
                     </div>
