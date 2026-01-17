@@ -878,5 +878,29 @@
     "countryIso": "au",
     "status": "official",
     "url": "https://pilots.vatpac.org/local-procedures/Class%20C/sydney/"
+  },
+  {
+    "name": "Milano/Malpensa",
+    "icao": "LIMC",
+    "iata": "MXP",
+    "countryIso": "it",
+    "status": "official",
+    "url": "https://vats.im/it/LIMCbrief"
+  },
+  {
+    "name": "Roma/Fiumicino",
+    "icao": "LIRF",
+    "iata": "FCO",
+    "countryIso": "it",
+    "status": "official",
+    "url": "https://vats.im/it/LIRFbrief"
+  },
+  {
+    "name": "Napoli/Capodichino",
+    "icao": "LIRN",
+    "iata": "NAP",
+    "countryIso": "it",
+    "status": "official",
+    "url": "https://vats.im/it/LIRNbrief"
   }
 ]
