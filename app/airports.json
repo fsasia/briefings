@@ -243,7 +243,7 @@
     "name": "Alderney",
     "icao": "EGJA",
     "iata": "ACI",
-    "countryIso": "gb",
+    "countryIso": "gg",
     "status": "official",
     "url": "https://www.vatsim.uk/airports/EGJA"
   },
@@ -251,7 +251,7 @@
     "name": "Guernsey",
     "icao": "EGJB",
     "iata": "GCI",
-    "countryIso": "gb",
+    "countryIso": "gg",
     "status": "official",
     "url": "https://www.vatsim.uk/airports/EGJB"
   },
@@ -259,7 +259,7 @@
     "name": "Jersey",
     "icao": "EGJJ",
     "iata": "JSY",
-    "countryIso": "gb",
+    "countryIso": "je",
     "status": "official",
     "url": "https://www.vatsim.uk/airports/EGJJ"
   },
@@ -322,7 +322,7 @@
   {
     "name": "London Heliport (Battersea)",
     "icao": "EGLW",
-    "iata": "NIL",
+    "iata": "",
     "countryIso": "gb",
     "status": "official",
     "url": "https://www.vatsim.uk/airports/EGLW"
