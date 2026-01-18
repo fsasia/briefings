@@ -16,14 +16,6 @@
     "url": "https://czul.ca/pdf/CYUL_2024_Pilot_Briefing.pdf"
   },
   {
-    "name": "Amsterdam Schiphol",
-    "icao": "EHAM",
-    "iata": "AMS",
-    "countryIso": "nl",
-    "status": "official",
-    "url": "https://www.dutchvacc.nl/visiting-pilots/"
-  },
-  {
     "name": "Frankfurt/Main",
     "icao": "EDDF",
     "iata": "FRA",
@@ -88,20 +80,20 @@
     "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edlp-paderbornlippstadt"
   },
   {
-    "name": "Ivalo",
-    "icao": "EFIV",
-    "iata": "IVL",
-    "countryIso": "fi",
-    "status": "official",
-    "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efiv-ivalo"
-  },
-  {
     "name": "Helsinki Vantaa",
     "icao": "EFHK",
     "iata": "HEL",
     "countryIso": "fi",
     "status": "official",
     "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efhk-pilot-briefing"
+  },
+  {
+    "name": "Ivalo",
+    "icao": "EFIV",
+    "iata": "IVL",
+    "countryIso": "fi",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efiv-ivalo"
   },
   {
     "name": "Kittilä",
@@ -120,7 +112,7 @@
     "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efro-rovaniemi"
   },
   {
-    "name": "Belfast Aldergrove",
+    "name": "Belfast/Aldergrove",
     "icao": "EGAA",
     "iata": "BFS",
     "countryIso": "gb",
@@ -128,7 +120,7 @@
     "url": "https://www.vatsim.uk/airports/EGAA"
   },
   {
-    "name": "Belfast City",
+    "name": "Belfast/City",
     "icao": "EGAC",
     "iata": "BHD",
     "countryIso": "gb",
@@ -136,7 +128,7 @@
     "url": "https://www.vatsim.uk/airports/EGAC"
   },
   {
-    "name": "Londonderry Eglinton",
+    "name": "Londonderry/Eglinton",
     "icao": "EGAE",
     "iata": "LDY",
     "countryIso": "gb",
@@ -216,20 +208,20 @@
     "url": "https://www.vatsim.uk/airports/EGGW"
   },
   {
-    "name": "Bournemouth",
-    "icao": "EGHH",
-    "iata": "BOH",
-    "countryIso": "gb",
-    "status": "official",
-    "url": "https://www.vatsim.uk/airports/EGHH"
-  },
-  {
     "name": "Scilly Isles/St Mary's",
     "icao": "EGHE",
     "iata": "ISC",
     "countryIso": "gb",
     "status": "official",
     "url": "https://www.vatsim.uk/airports/EGHE"
+  },
+  {
+    "name": "Bournemouth",
+    "icao": "EGHH",
+    "iata": "BOH",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGHH"
   },
   {
     "name": "Southampton",
@@ -384,7 +376,7 @@
     "url": "https://www.vatsim.uk/airports/EGNJ"
   },
   {
-    "name": "Barrow Walney Island",
+    "name": "Barrow/Walney Island",
     "icao": "EGNL",
     "iata": "BWF",
     "countryIso": "gb",
@@ -630,6 +622,14 @@
     "countryIso": "gb",
     "status": "official",
     "url": "https://www.vatsim.uk/airports/EGYM"
+  },
+  {
+    "name": "Amsterdam Schiphol",
+    "icao": "EHAM",
+    "iata": "AMS",
+    "countryIso": "nl",
+    "status": "official",
+    "url": "https://www.dutchvacc.nl/visiting-pilots/"
   },
   {
     "name": "Aarhus",
@@ -928,6 +928,30 @@
     "url": "https://vacchun.hu/assets/Pilot_Briefing_Budapest_Liszt_Ferenc_Airport.pdf"
   },
   {
+    "name": "Milano/Malpensa",
+    "icao": "LIMC",
+    "iata": "MXP",
+    "countryIso": "it",
+    "status": "official",
+    "url": "https://vats.im/it/LIMCbrief"
+  },
+  {
+    "name": "Roma/Fiumicino",
+    "icao": "LIRF",
+    "iata": "FCO",
+    "countryIso": "it",
+    "status": "official",
+    "url": "https://vats.im/it/LIRFbrief"
+  },
+  {
+    "name": "Napoli/Capodichino",
+    "icao": "LIRN",
+    "iata": "NAP",
+    "countryIso": "it",
+    "status": "official",
+    "url": "https://vats.im/it/LIRNbrief"
+  },
+  {
     "name": "Innsbruck/Kranebitten",
     "icao": "LOWI",
     "iata": "VIE",
@@ -944,14 +968,6 @@
     "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWL"
   },
   {
-    "name": "Wien/Schwechat",
-    "icao": "LOWW",
-    "iata": "VIE",
-    "countryIso": "at",
-    "status": "official",
-    "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWW"
-  },
-  {
     "name": "Salzburg/Maxglan",
     "icao": "LOWS",
     "iata": "SZG",
@@ -960,12 +976,12 @@
     "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWS"
   },
   {
-    "name": "Lisboa/Humberto Delgado",
-    "icao": "LPPT",
-    "iata": "LIS",
-    "countryIso": "pt",
+    "name": "Wien/Schwechat",
+    "icao": "LOWW",
+    "iata": "VIE",
+    "countryIso": "at",
     "status": "official",
-    "url": "https://portugal-vacc.org/airports/LPPT"
+    "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWW"
   },
   {
     "name": "Porto/Francisco Sá Carneiro",
@@ -974,6 +990,14 @@
     "countryIso": "pt",
     "status": "official",
     "url": "https://portugal-vacc.org/airports/LPPR"
+  },
+  {
+    "name": "Lisboa/Humberto Delgado",
+    "icao": "LPPT",
+    "iata": "LIS",
+    "countryIso": "pt",
+    "status": "official",
+    "url": "https://portugal-vacc.org/airports/LPPT"
   },
   {
     "name": "Geneva",
@@ -1080,20 +1104,20 @@
     "url": "https://library.arabianvacc.com/pilots/dubai/overview/"
   },
   {
-    "name": "Doha/Hamad",
-    "icao": "OTHH",
-    "iata": "DOH",
-    "countryIso": "qa",
-    "status": "official",
-    "url": "https://library.arabianvacc.com/pilots/doha/overview/"
-  },
-  {
     "name": "Muscat",
     "icao": "OOMS",
     "iata": "MCT",
     "countryIso": "om",
     "status": "official",
     "url": "https://library.arabianvacc.com/pilots/muscat/overview/"
+  },
+  {
+    "name": "Doha/Hamad",
+    "icao": "OTHH",
+    "iata": "DOH",
+    "countryIso": "qa",
+    "status": "official",
+    "url": "https://library.arabianvacc.com/pilots/doha/overview/"
   },
   {
     "name": "Fairbanks",
@@ -1176,22 +1200,6 @@
     "url": "https://vatrus.info/airport/UGTB"
   },
   {
-    "name": "St Petersburg/Pulkovo",
-    "icao": "ULLI",
-    "iata": "LED",
-    "countryIso": "ru",
-    "status": "official",
-    "url": "https://vatrus.info/airport/ULLI"
-  },
-  {
-    "name": "Murmansk",
-    "icao": "ULMM",
-    "iata": "MMK",
-    "countryIso": "ru",
-    "status": "official",
-    "url": "https://vatrus.info/airport/ULMM"
-  },
-  {
     "name": "Khabarovsk",
     "icao": "UHHH",
     "iata": "KHV",
@@ -1222,6 +1230,22 @@
     "countryIso": "ru",
     "status": "official",
     "url": "https://vatrus.info/airport/UHWW"
+  },
+  {
+    "name": "St Petersburg/Pulkovo",
+    "icao": "ULLI",
+    "iata": "LED",
+    "countryIso": "ru",
+    "status": "official",
+    "url": "https://vatrus.info/airport/ULLI"
+  },
+  {
+    "name": "Murmansk",
+    "icao": "ULMM",
+    "iata": "MMK",
+    "countryIso": "ru",
+    "status": "official",
+    "url": "https://vatrus.info/airport/ULMM"
   },
   {
     "name": "Kaliningrad/Khrabrovo",
