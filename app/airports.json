@@ -120,6 +120,518 @@
     "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efro-rovaniemi"
   },
   {
+    "name": "Belfast Aldergrove",
+    "icao": "EGAA",
+    "iata": "BFS",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGAA"
+  },
+  {
+    "name": "Belfast City",
+    "icao": "EGAC",
+    "iata": "BHD",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGAC"
+  },
+  {
+    "name": "Londonderry Eglinton",
+    "icao": "EGAE",
+    "iata": "LDY",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGAE"
+  },
+  {
+    "name": "Birmingham",
+    "icao": "EGBB",
+    "iata": "BHX",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGBB"
+  },
+  {
+    "name": "Coventry",
+    "icao": "EGBE",
+    "iata": "CVT",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGBE"
+  },
+  {
+    "name": "Gloucestershire",
+    "icao": "EGBJ",
+    "iata": "GLO",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGBJ"
+  },
+  {
+    "name": "Manchester",
+    "icao": "EGCC",
+    "iata": "MAN",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGCC"
+  },
+  {
+    "name": "Doncaster Sheffield",
+    "icao": "EGCN",
+    "iata": "DSA",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGCN"
+  },
+  {
+    "name": "Cardiff",
+    "icao": "EGFF",
+    "iata": "CWL",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGFF"
+  },
+  {
+    "name": "Bristol",
+    "icao": "EGGD",
+    "iata": "BRS",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGGD"
+  },
+  {
+    "name": "Liverpool",
+    "icao": "EGGP",
+    "iata": "LPL",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGGP"
+  },
+  {
+    "name": "London Luton",
+    "icao": "EGGW",
+    "iata": "LTN",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGGW"
+  },
+  {
+    "name": "Bournemouth",
+    "icao": "EGHH",
+    "iata": "BOH",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGHH"
+  },
+  {
+    "name": "Scilly Isles/St Mary's",
+    "icao": "EGHE",
+    "iata": "ISC",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGHE"
+  },
+  {
+    "name": "Southampton",
+    "icao": "EGHI",
+    "iata": "SAM",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGHI"
+  },
+  {
+    "name": "Newquay",
+    "icao": "EGHQ",
+    "iata": "NQY",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGHQ"
+  },
+  {
+    "name": "Alderney",
+    "icao": "EGJA",
+    "iata": "ACI",
+    "countryIso": "gg",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGJA"
+  },
+  {
+    "name": "Guernsey",
+    "icao": "EGJB",
+    "iata": "GCI",
+    "countryIso": "gg",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGJB"
+  },
+  {
+    "name": "Jersey",
+    "icao": "EGJJ",
+    "iata": "JSY",
+    "countryIso": "je",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGJJ"
+  },
+  {
+    "name": "Shoreham",
+    "icao": "EGKA",
+    "iata": "SHM",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGKA"
+  },
+  {
+    "name": "Biggin Hill",
+    "icao": "EGKB",
+    "iata": "BQH",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGKB"
+  },
+  {
+    "name": "London Gatwick",
+    "icao": "EGKK",
+    "iata": "LGW",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGKK"
+  },
+  {
+    "name": "Redhill",
+    "icao": "EGKR",
+    "iata": "KRH",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGKR"
+  },
+  {
+    "name": "London City",
+    "icao": "EGLC",
+    "iata": "LCY",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGLC"
+  },
+  {
+    "name": "Farnborough",
+    "icao": "EGLF",
+    "iata": "FAB",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGLF"
+  },
+  {
+    "name": "London Heathrow",
+    "icao": "EGLL",
+    "iata": "LHR",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGLL"
+  },
+  {
+    "name": "London Heliport (Battersea)",
+    "icao": "EGLW",
+    "iata": "",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGLW"
+  },
+  {
+    "name": "Southend",
+    "icao": "EGMC",
+    "iata": "SEN",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGMC"
+  },
+  {
+    "name": "Lydd",
+    "icao": "EGMD",
+    "iata": "LYX",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGMD"
+  },
+  {
+    "name": "Manston",
+    "icao": "EGMH",
+    "iata": "MSE",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGMH"
+  },
+  {
+    "name": "Carlisle",
+    "icao": "EGNC",
+    "iata": "CAX",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNC"
+  },
+  {
+    "name": "Blackpool",
+    "icao": "EGNH",
+    "iata": "BLK",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNH"
+  },
+  {
+    "name": "Humberside",
+    "icao": "EGNJ",
+    "iata": "HUY",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNJ"
+  },
+  {
+    "name": "Barrow Walney Island",
+    "icao": "EGNL",
+    "iata": "BWF",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNL"
+  },
+  {
+    "name": "Leeds Bradford",
+    "icao": "EGNM",
+    "iata": "LBA",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNM"
+  },
+  {
+    "name": "Hawarden",
+    "icao": "EGNR",
+    "iata": "CEG",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNR"
+  },
+  {
+    "name": "Isle of Man",
+    "icao": "EGNS",
+    "iata": "IOM",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNS"
+  },
+  {
+    "name": "Newcastle",
+    "icao": "EGNT",
+    "iata": "NCL",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNT"
+  },
+  {
+    "name": "Teesside International",
+    "icao": "EGNV",
+    "iata": "MME",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNV"
+  },
+  {
+    "name": "East Midlands",
+    "icao": "EGNX",
+    "iata": "EMA",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGNX"
+  },
+  {
+    "name": "RAF Valley",
+    "icao": "EGOV",
+    "iata": "VLY",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGOV"
+  },
+  {
+    "name": "Kirkwall",
+    "icao": "EGPA",
+    "iata": "KOI",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPA"
+  },
+  {
+    "name": "Sumburgh",
+    "icao": "EGPB",
+    "iata": "LSI",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPB"
+  },
+  {
+    "name": "Wick",
+    "icao": "EGPC",
+    "iata": "WIC",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPC"
+  },
+  {
+    "name": "Aberdeen",
+    "icao": "EGPD",
+    "iata": "ABZ",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPD"
+  },
+  {
+    "name": "Inverness",
+    "icao": "EGPE",
+    "iata": "INV",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPE"
+  },
+  {
+    "name": "Glasgow",
+    "icao": "EGPF",
+    "iata": "GLA",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPF"
+  },
+  {
+    "name": "Edinburgh",
+    "icao": "EGPH",
+    "iata": "EDI",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPH"
+  },
+  {
+    "name": "Prestwick",
+    "icao": "EGPK",
+    "iata": "PIK",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPK"
+  },
+  {
+    "name": "Benbecula",
+    "icao": "EGPL",
+    "iata": "BEB",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPL"
+  },
+  {
+    "name": "Scatsta",
+    "icao": "EGPM",
+    "iata": "SCS",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPM"
+  },
+  {
+    "name": "Dundee",
+    "icao": "EGPN",
+    "iata": "DND",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPN"
+  },
+  {
+    "name": "Stornoway",
+    "icao": "EGPO",
+    "iata": "SYY",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPO"
+  },
+  {
+    "name": "Barra",
+    "icao": "EGPR",
+    "iata": "BRR",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGPR"
+  },
+  {
+    "name": "Cambridge",
+    "icao": "EGSC",
+    "iata": "CBG",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGSC"
+  },
+  {
+    "name": "Norwich",
+    "icao": "EGSH",
+    "iata": "NWI",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGSH"
+  },
+  {
+    "name": "London Stansted",
+    "icao": "EGSS",
+    "iata": "STN",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGSS"
+  },
+  {
+    "name": "Exeter",
+    "icao": "EGTE",
+    "iata": "EXT",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGTE"
+  },
+  {
+    "name": "Oxford",
+    "icao": "EGTK",
+    "iata": "OXF",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGTK"
+  },
+  {
+    "name": "RAF Brize Norton",
+    "icao": "EGVN",
+    "iata": "BZZ",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGVN"
+  },
+  {
+    "name": "RAF Odiham",
+    "icao": "EGVO",
+    "iata": "ODH",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGVO"
+  },
+  {
+    "name": "RAF Northolt",
+    "icao": "EGWU",
+    "iata": "NHT",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGWU"
+  },
+  {
+    "name": "RAF Cranwell",
+    "icao": "EGYD",
+    "iata": "",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGYD"
+  },
+  {
+    "name": "Marham",
+    "icao": "EGYM",
+    "iata": "KNF",
+    "countryIso": "gb",
+    "status": "official",
+    "url": "https://www.vatsim.uk/airports/EGYM"
+  },
+  {
     "name": "Aarhus",
     "icao": "EKAH",
     "iata": "AAR",
