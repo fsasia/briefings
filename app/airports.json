@@ -8,12 +8,44 @@
     "url": "https://pilots.vatpac.org/local-procedures/Pacific/portmorseby/"
   },
   {
+    "name": "Akureyri",
+    "icao": "BIAR",
+    "iata": "AEY",
+    "countryIso": "is",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/icelandic-airports-charts/page/biar-akureyri-airport"
+  },
+  {
+    "name": "Keflavik",
+    "icao": "BIKF",
+    "iata": "KEF",
+    "countryIso": "is",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/icelandic-airports-charts/page/bikf-keflavik-international-airport"
+  },
+  {
+    "name": "Reykjavík",
+    "icao": "BIRK",
+    "iata": "RKV",
+    "countryIso": "is",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/icelandic-airports-charts/page/birk-reykjavik-airport"
+  },
+  {
     "name": "Montréal",
     "icao": "CYUL",
     "iata": "YUL",
     "countryIso": "ca",
     "status": "official",
     "url": "https://czul.ca/pdf/CYUL_2024_Pilot_Briefing.pdf"
+  },
+  {
+    "name": "Berlin/Brandenburg",
+    "icao": "EDDB",
+    "iata": "BER",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-bremen-fir-edww/chapter/eddb-berlinbrandenburg"
   },
   {
     "name": "Frankfurt/Main",
@@ -64,6 +96,30 @@
     "url": "https://knowledgebase.vatsim-germany.org/books/airports-munchen-fir-edmm/chapter/eddm-munchen"
   },
   {
+    "name": "Nürnberg",
+    "icao": "EDDN",
+    "iata": "NUE",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-munchen-fir-edmm/page/eddn-nurnberg"
+  },
+  {
+    "name": "Leipzig/Halle",
+    "icao": "EDDP",
+    "iata": "LEJ",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-munchen-fir-edmm/page/eddp-leipzighalle"
+  },
+  {
+    "name": "Saarbrücken",
+    "icao": "EDDR",
+    "iata": "SCN",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/eddr-saarbrucken"
+  },
+  {
     "name": "Stuttgart",
     "icao": "EDDS",
     "iata": "STG",
@@ -72,12 +128,84 @@
     "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edds-stuttgart"
   },
   {
+    "name": "Hannover",
+    "icao": "EDDV",
+    "iata": "HAJ",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-bremen-fir-edww/chapter/eddv-hannover"
+  },
+  {
+    "name": "Bremen",
+    "icao": "EDDW",
+    "iata": "BRE",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-bremen-fir-edww/chapter/eddw-bremen"
+  },
+  {
+    "name": "Frankfurt/Hahn",
+    "icao": "EDFH",
+    "iata": "HHN",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edfh-frankfurt-hahn"
+  },
+  {
+    "name": "Mannheim City",
+    "icao": "EDFM",
+    "iata": "MHG",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edfm-mannheim-city"
+  },
+  {
+    "name": "Mönchengladbach",
+    "icao": "EDLN",
+    "iata": "MGL",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edln-monchengladbach"
+  },
+  {
     "name": "Paderborn/Lippstadt",
     "icao": "EDLP",
     "iata": "PAD",
     "countryIso": "de",
     "status": "official",
     "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edlp-paderbornlippstadt"
+  },
+  {
+    "name": "Niederrhein",
+    "icao": "EDLV",
+    "iata": "NRN",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edlv-niederrhein"
+  },
+  {
+    "name": "Dortmund",
+    "icao": "EDLW",
+    "iata": "DTM",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edlw-dortmund"
+  },
+  {
+    "name": "Karlsruhe/Baden-Baden",
+    "icao": "EDSB",
+    "iata": "FKB",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edsb-karlsruhebaden-baden"
+  },
+  {
+    "name": "Lahr",
+    "icao": "EDTL",
+    "iata": "LHA",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/edtl-lahr"
   },
   {
     "name": "Helsinki Vantaa",
@@ -96,6 +224,14 @@
     "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efiv-ivalo"
   },
   {
+    "name": "Jyväskylä",
+    "icao": "EFJY",
+    "iata": "JYV",
+    "countryIso": "fi",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efjy-jyvaskyla"
+  },
+  {
     "name": "Kittilä",
     "icao": "EFKT",
     "iata": "KTT",
@@ -104,12 +240,44 @@
     "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efkt-kittila"
   },
   {
+    "name": "Kuopio",
+    "icao": "EFKU",
+    "iata": "KUO",
+    "countryIso": "fi",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efku-kuopio"
+  },
+  {
+    "name": "Oulu",
+    "icao": "EFOU",
+    "iata": "OUL",
+    "countryIso": "fi",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efou-oulu"
+  },
+  {
     "name": "Rovaniemi",
     "icao": "EFRO",
     "iata": "RVN",
     "countryIso": "fi",
     "status": "official",
     "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efro-rovaniemi"
+  },
+  {
+    "name": "Tampere-Pirkkala",
+    "icao": "EFTP",
+    "iata": "TMP",
+    "countryIso": "fi",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/eftp-tampere-pirkkala"
+  },
+  {
+    "name": "Turku",
+    "icao": "EFTU",
+    "iata": "TKU",
+    "countryIso": "fi",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/eftu-turku"
   },
   {
     "name": "Belfast/Aldergrove",
@@ -656,12 +824,52 @@
     "url": "https://wiki.vatsim-scandinavia.org/books/danish-airports-charts/page/ekch-copenhagenkastrup"
   },
   {
-    "name": "Rønne/Bornolm",
+    "name": "Karup",
+    "icao": "EKKA",
+    "iata": "KRP",
+    "countryIso": "dk",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/danish-airports-charts/page/ekka-karup"
+  },
+  {
+    "name": "Odense",
+    "icao": "EKOD",
+    "iata": "ODE",
+    "countryIso": "dk",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/danish-airports-charts/page/ekod-odense"
+  },
+  {
+    "name": "Roskilde",
+    "icao": "EKRK",
+    "iata": "RKE",
+    "countryIso": "dk",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/danish-airports-charts/page/ekrk-roskilde"
+  },
+  {
+    "name": "Rønne",
     "icao": "EKRN",
     "iata": "RNN",
     "countryIso": "dk",
     "status": "official",
     "url": "https://wiki.vatsim-scandinavia.org/books/danish-airports-charts/page/ekrn-ronne"
+  },
+  {
+    "name ": "Sønderborg",
+    "icao": "EKSN",
+    "iata": "SGD",
+    "countryIso": "dk",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/danish-airports-charts/page/eksb-sonderborg"
+  },
+  {
+    "name": "Vágar",
+    "icao": "EKVG",
+    "iata": "FAE",
+    "countryIso": "fo",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/icelandic-airports-charts/page/ekvg-vagar-airport"
   },
   {
     "name": "Aalborg",
@@ -736,7 +944,15 @@
     "url": "https://wiki.vatsim-scandinavia.org/books/norwegian-airports-charts/page/enzv-stavangersola"
   },
   {
-    "name": "Gdańsk/Lech Walesa",
+    "name": "Bydgoszcz",
+    "icao": "EPBY",
+    "iata": "BZG",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPBY"
+  },
+  {
+    "name": "Gdańsk - Lech Walesa",
     "icao": "EPGD",
     "iata": "GDN",
     "countryIso": "pl",
@@ -744,7 +960,7 @@
     "url": "https://plvacc.pl/pilots/airports/EPGD"
   },
   {
-    "name": "Kraków/Balice",
+    "name": "Kraków - Balice",
     "icao": "EPKK",
     "iata": "KRK",
     "countryIso": "pl",
@@ -752,7 +968,7 @@
     "url": "https://plvacc.pl/pilots/airports/EPKK"
   },
   {
-    "name": "Kraków/Balice",
+    "name": "Katowice - Pyrzowice Airport",
     "icao": "EPKT",
     "iata": "KTW",
     "countryIso": "pl",
@@ -760,7 +976,31 @@
     "url": "https://plvacc.pl/pilots/airports/EPKT"
   },
   {
-    "name": "Poznan/Lawica",
+    "name": "Lublin",
+    "icao": "EPLB",
+    "iata": "LUZ",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPLB"
+  },
+  {
+    "name": "Łódź Lublinek",
+    "icao": "EPLL",
+    "iata": "LCJ",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPLL"
+  },
+  {
+    "name": "Warszawa - Modlin",
+    "icao": "EPMO",
+    "iata": "WMI",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPMO"
+  },
+  {
+    "name": "Poznan - Lawica",
     "icao": "EPPO",
     "iata": "POZ",
     "countryIso": "pl",
@@ -768,12 +1008,60 @@
     "url": "https://plvacc.pl/pilots/airports/EPPO"
   },
   {
-    "name": "Warsaw/Chopin",
+    "name": "Warszawa - Radom",
+    "icao": "EPRA",
+    "iata": "RDO",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPRA"
+  },
+  {
+    "name": "Rzeszów - Jasionka",
+    "icao": "EPRZ",
+    "iata": "RZS",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPRZ"
+  },
+  {
+    "name": "Szczecin - Goleniów",
+    "icao": "EPSC",
+    "iata": "SZZ",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPSC"
+  },
+  {
+    "name": "Olsztyn - Mazury",
+    "icao": "EPSY",
+    "iata": "SZY",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPSY"
+  },
+  {
+    "name": "Warsaw Chopin",
     "icao": "EPWA",
     "iata": "WAW",
     "countryIso": "pl",
     "status": "official",
     "url": "https://plvacc.pl/pilots/airports/EPWA"
+  },
+  {
+    "name": "Wrocław - Strachowice",
+    "icao": "EPWR",
+    "iata": "WRO",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPWR"
+  },
+  {
+    "name": "Zielona Gora - Babimost",
+    "icao": "EPZG",
+    "iata": "IEG",
+    "countryIso": "pl",
+    "status": "official",
+    "url": "https://plvacc.pl/pilots/airports/EPZG"
   },
   {
     "name": "Göteborg/Landvetter",
@@ -784,12 +1072,28 @@
     "url": "https://wiki.vatsim-scandinavia.org/books/swedish-airports-charts/page/esgg-goteborglandvetter"
   },
   {
-    "name": "Stockholm/Arlanda",
+    "name": "Kiruna",
     "icao": "ESNQ",
     "iata": "KRN",
     "countryIso": "se",
     "status": "official",
     "url": "https://wiki.vatsim-scandinavia.org/books/swedish-airports-charts/page/esnq-kiruna"
+  },
+  {
+    "name": "Luleå/Kallax",
+    "icao": "ESPA",
+    "iata": "LLA",
+    "countryIso": "se",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/swedish-airports-charts/page/espa-luleakallax"
+  },
+  {
+    "name": "Vidsel",
+    "icao": "ESPE",
+    "iata": "VDS",
+    "countryIso": "se",
+    "status": "official",
+    "url": "https://wiki.vatsim-scandinavia.org/books/swedish-airports-charts/page/espe-vidsel"
   },
   {
     "name": "Stockholm/Ärlanda",
@@ -798,6 +1102,22 @@
     "countryIso": "se",
     "status": "official",
     "url": "https://wiki.vatsim-scandinavia.org/books/swedish-airports-charts/page/essa-stockholmarlanda"
+  },
+  {
+    "name": "Nörvenich",
+    "icao": "ETNN",
+    "iata": "QOE",
+    "countryIso": "de",
+    "status": "official",
+    "url": "https://knowledgebase.vatsim-germany.org/books/airports-langen-fir-edgg/chapter/etnn-norvenich"
+  },
+  {
+    "name": "Riga",
+    "icao": "EVRA",
+    "iata": "RIX",
+    "countryIso": "lv",
+    "status": "official",
+    "url": "https://lv-vacc.org/assets/EVRA_pilotbriefing.pdf"
   },
   {
     "name": "Hollywood/Burbank",
@@ -952,12 +1272,28 @@
     "url": "https://vats.im/it/LIRNbrief"
   },
   {
+    "name": "Graz",
+    "icao": "LOWG",
+    "iata": "GRZ",
+    "countryIso": "at",
+    "status": "official",
+    "url": "https://wiki.vacc-austria.org/index.php/Graz"
+  },
+  {
     "name": "Innsbruck/Kranebitten",
     "icao": "LOWI",
     "iata": "VIE",
     "countryIso": "at",
     "status": "official",
-    "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWI"
+    "url": "https://wiki.vacc-austria.org/index.php/Innsbruck"
+  },
+  {
+    "name": "Klagenfurt",
+    "icao": "LOWK",
+    "iata": "KLU",
+    "countryIso": "at",
+    "status": "official",
+    "url": "https://wiki.vacc-austria.org/index.php/Klagenfurt"
   },
   {
     "name": "Linz/Hörsching",
@@ -965,7 +1301,7 @@
     "iata": "LNZ",
     "countryIso": "at",
     "status": "official",
-    "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWL"
+    "url": "https://wiki.vacc-austria.org/index.php/Linz"
   },
   {
     "name": "Salzburg/Maxglan",
@@ -973,7 +1309,7 @@
     "iata": "SZG",
     "countryIso": "at",
     "status": "official",
-    "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWS"
+    "url": "https://wiki.vacc-austria.org/index.php/Salzburg"
   },
   {
     "name": "Wien/Schwechat",
@@ -981,7 +1317,7 @@
     "iata": "VIE",
     "countryIso": "at",
     "status": "official",
-    "url": "https://www.vacc-austria.org/index.php?page=content/airportinfo&icao=LOWW"
+    "url": "https://wiki.vacc-austria.org/index.php/Vienna"
   },
   {
     "name": "Porto/Francisco Sá Carneiro",
