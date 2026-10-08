@@ -1655,6 +1655,30 @@
     "status": "official",
     "url": "https://vathk.com/en/briefings"
   },
+   {
+    "name": "Bangkok/Don Mueang",
+    "icao": "VTBD",
+    "iata": "DMK",
+    "countryIso": "th",
+    "status": "official",
+    "url": "https://wiki.vacc-tha.org/books/pilot-briefings-charts/page/vtbd-don-mueang-airport"
+  },
+    {
+    "name": "Bangkok/Suvarnabhumi",
+    "icao": "VTBS",
+    "iata": "BKK",
+    "countryIso": "th",
+    "status": "official",
+    "url": "https://wiki.vacc-tha.org/books/pilot-briefings-charts/page/vtbs-suvarnabhumi-airport"
+  },
+     {
+    "name": "Phuket",
+    "icao": "VTSP",
+    "iata": "HKT",
+    "countryIso": "th",
+    "status": "official",
+    "url": "https://wiki.vacc-tha.org/books/pilot-briefings-charts/page/vtsp-phuket-international-airport"
+  },
   {
     "name": "Singapore",
     "icao": "WSSS",
